@@ -8,9 +8,9 @@ const favColor = prompt("Scrivi il tuo colore preferito:");
 console.log(favColor);
 const randomNum = Math.floor(Math.random() * 100);
 console.log(randomNum);
-let generatedPswd = firstName + lastName + favColor + randomNum;
+const generatedPswd = firstName + lastName + favColor + randomNum;
 console.log(generatedPswd);
-let divPswd = document.getElementById("user-password");
+const divPswd = document.getElementById("user-password");
 divPswd.innerHTML = generatedPswd;
 
 
